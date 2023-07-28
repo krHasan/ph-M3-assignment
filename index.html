@@ -49,7 +49,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </label>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-20 p-2 shadow bg-base-100 rounded-box w-52">
                             <li><a>Home</a></li>
                             <li><a>About Us</a></li>
                             <li><a>Shop</a></li>
@@ -82,54 +82,94 @@
         </nav>
 
         <!-- banner -->
-        <section>
+        <section class="w-full relative">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="/images/banner1.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-10">
-                        <a href="#slide4" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
+                        <a href="#slide4" class="btn btn-xs btn-circle flex lg:hidden">❮</a>
+                        <a href="#slide4" class="btn btn-circle hidden lg:flex">❮</a>
+
+                        <a href="#slide2" class="btn btn-xs btn-circle flex lg:hidden">❯</a>
+                        <a href="#slide2" class="btn btn-circle hidden lg:flex">❯</a>
                     </div>
                     <div class="absolute text-white w-full h-full flex flex-col justify-center items-center bg-[#121212]/50">
                         <h1 class="text-center text-2xl lg:text-5xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                         <p class="my-1 lg:my-5 text-sm lg:text-lg font-medium">We supply highly quality organic products</p>
-                        <button class="btn btn-xs lg:btn-primary bg-base-color border-0 text-white">Shop Now</button>
+                        <button class="btn block lg:hidden btn-xs bg-base-color border-0 text-white">Shop Now</button>
+                        <button class="btn hidden lg:block btn-primary bg-base-color border-0 text-white">Shop Now</button>
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="/images/banner2.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-10">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide3" class="btn btn-circle">❯</a>
+                        <a href="#slide1" class="btn btn-xs btn-circle flex lg:hidden">❮</a>
+                        <a href="#slide1" class="btn btn-circle hidden lg:flex">❮</a>
+
+                        <a href="#slide3" class="btn btn-xs btn-circle flex lg:hidden">❯</a>
+                        <a href="#slide3" class="btn btn-circle hidden lg:flex">❯</a>
                     </div>
                     <div class="absolute text-white w-full h-full flex flex-col justify-center items-center bg-[#121212]/50">
                         <h1 class="text-center text-2xl lg:text-5xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                         <p class="my-1 lg:my-5 text-sm lg:text-lg font-medium">We supply highly quality organic products</p>
-                        <button class="btn btn-xs lg:btn-primary bg-base-color border-0 text-white">Shop Now</button>
+                        <button class="btn block lg:hidden btn-xs bg-base-color border-0 text-white">Shop Now</button>
+                        <button class="btn hidden lg:block btn-primary bg-base-color border-0 text-white">Shop Now</button>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
                     <img src="/images/banner3.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-10">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide4" class="btn btn-circle">❯</a>
+                        <a href="#slide2" class="btn btn-xs btn-circle flex lg:hidden">❮</a>
+                        <a href="#slide2" class="btn btn-circle hidden lg:flex">❮</a>
+
+                        <a href="#slide4" class="btn btn-xs btn-circle flex lg:hidden">❯</a>
+                        <a href="#slide4" class="btn btn-circle hidden lg:flex">❯</a>
                     </div>
                     <div class="absolute text-white w-full h-full flex flex-col justify-center items-center bg-[#121212]/50">
                         <h1 class="text-center text-2xl lg:text-5xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                         <p class="my-1 lg:my-5 text-sm lg:text-lg font-medium">We supply highly quality organic products</p>
-                        <button class="btn btn-xs lg:btn-primary bg-base-color border-0 text-white">Shop Now</button>
+                        <button class="btn block lg:hidden btn-xs bg-base-color border-0 text-white">Shop Now</button>
+                        <button class="btn hidden lg:block btn-primary bg-base-color border-0 text-white">Shop Now</button>
                     </div>
                 </div>
                 <div id="slide4" class="carousel-item relative w-full">
                     <img src="/images/banner4.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-10">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
+                        <a href="#slide3" class="btn btn-xs btn-circle flex lg:hidden">❮</a>
+                        <a href="#slide3" class="btn btn-circle hidden lg:flex">❮</a>
+
+                        <a href="#slide1" class="btn btn-xs btn-circle flex lg:hidden">❯</a>
+                        <a href="#slide1" class="btn btn-circle hidden lg:flex">❯</a>
                     </div>
                     <div class="absolute text-white w-full h-full flex flex-col justify-center items-center bg-[#121212]/50">
                         <h1 class="text-center text-2xl lg:text-5xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                         <p class="my-1 lg:my-5 text-sm lg:text-lg font-medium">We supply highly quality organic products</p>
-                        <button class="btn btn-xs lg:btn-primary bg-base-color border-0 text-white">Shop Now</button>
+                        <button class="btn block lg:hidden btn-xs bg-base-color border-0 text-white">Shop Now</button>
+                        <button class="btn hidden lg:block btn-primary bg-base-color border-0 text-white">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute w-full hidden lg:flex justify-center bottom-0 translate-y-1/2">
+                <div class="w-4/5 h-36 bg-white rounded-lg flex justify-around items-center" style="box-shadow: 0px 8px 60px 0px rgba(0, 0, 0, 0.05);">
+                    <div class="flex flex-col justify-center items-center">
+                        <img src="./images/fruit1.png" class="w-24 h-20" alt="">
+                        <p>Blueberry</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img src="./images/fruit2.png" class="w-24 h-20" alt="">
+                        <p>Orange</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img src="./images/fruit3.png" class="w-24 h-20" alt="">
+                        <p>Mango</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img src="./images/fruit4.png" class="w-24 h-20" alt="">
+                        <p>Strawberry</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img src="./images/fruit5.png" class="w-24 h-20" alt="">
+                        <p>Mango</p>
                     </div>
                 </div>
             </div>
